@@ -1,5 +1,3 @@
-#include "lemlib/chassis/chassis.hpp"
-#include "objects.cpp";
 #include "main.h";
 
 //Basic PROS definitions 
