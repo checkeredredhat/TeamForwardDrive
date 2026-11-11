@@ -9,3 +9,5 @@ extern lemlib::Drivetrain drivetrain;
 
 extern lemlib::OdomSensors odomSensors;
 extern lemlib::Chassis chassis; 
+
+extern void opcontrol();
