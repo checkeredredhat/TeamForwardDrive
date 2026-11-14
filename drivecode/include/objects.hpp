@@ -1,13 +1,13 @@
-#include "main.h";
+#include "lemlib/chassis/chassis.hpp"
+#include "main.h"
 
-//Basic PROS definitions 
 extern pros::Controller controller;
 extern pros::MotorGroup left; 
 extern pros::MotorGroup right;
 
 extern lemlib::Drivetrain drivetrain;
 
-extern lemlib::OdomSensors odomSensors;
+extern lemlib::OdomSensors odom;
+extern lemlib::ControllerSettings latCon; //lateral controller object
+extern lemlib::ControllerSettings angCon; //angular controller object
 extern lemlib::Chassis chassis; 
-
-extern void opcontrol();
